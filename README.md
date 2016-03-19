@@ -6,15 +6,15 @@ A game imitate battle city,support multiplayer on LAN,unfinshed work.
 ## 使用说明
 先要打开 TankServer.exe 启动服务器。
 
-![](Images/tankServer.png)
+![](https://raw.githubusercontent.com/huiyadanli/CrazyTank/master/Image/tankServer.png)
 
 再启动游戏 CrazyTank.exe。
 
-![](Images/tankWar.png)
+![](https://raw.githubusercontent.com/huiyadanli/CrazyTank/master/Image/tankWar.png)
 
 W S A D 控制坦克，space 发射子弹。
 
-![](Images/biubiubiu.gif)
+![](https://raw.githubusercontent.com/huiyadanli/CrazyTank/master/Image/biubiubiu.gif)
 
 
 ## 完成情况
