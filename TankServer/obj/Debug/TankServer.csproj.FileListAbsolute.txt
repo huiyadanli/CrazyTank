@@ -1,0 +1,14 @@
+F:\C#\CrazyTank\TankServer\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\CrazyTank\TankServer\bin\Debug\TankServer.exe
+F:\C#\CrazyTank\TankServer\bin\Debug\TankServer.pdb
+F:\C#\CrazyTank\TankServer\obj\Debug\TankServer.exe
+F:\C#\CrazyTank\TankServer\obj\Debug\TankServer.pdb
+D:\编程\Projects\CSharp3\TankWar\CrazyTank_2\TankServer\bin\Debug\TankServer.exe
+D:\编程\Projects\CSharp3\TankWar\CrazyTank_2\TankServer\bin\Debug\TankServer.pdb
+D:\编程\Projects\CSharp3\TankWar\CrazyTank_2\TankServer\obj\Debug\TankServer.exe
+D:\编程\Projects\CSharp3\TankWar\CrazyTank_2\TankServer\obj\Debug\TankServer.pdb
+D:\编程\Projects\CSharp3\TankWar\CrazyTank_3\TankServer\bin\Debug\TankServer.exe
+D:\编程\Projects\CSharp3\TankWar\CrazyTank_3\TankServer\bin\Debug\TankServer.pdb
+D:\编程\Projects\CSharp3\TankWar\CrazyTank_3\TankServer\obj\Debug\TankServer.exe
+D:\编程\Projects\CSharp3\TankWar\CrazyTank_3\TankServer\obj\Debug\TankServer.pdb
+D:\编程\Projects\CSharp3\TankWar\CrazyTank_3\TankServer\obj\Debug\TankServer.csprojResolveAssemblyReference.cache

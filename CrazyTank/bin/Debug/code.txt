@@ -1,0 +1,80 @@
+            /*for (i = 0; i < 8; i++)
+            {
+                for (j = 0; j < 4; j++)
+                {
+                    tmpRec = new Rectangle(i * ts.Width, j * ts.Height, ts.Width, ts.Height);
+                    tmpBmp = bmpTank1.Clone(tmpRec, format);
+                    tankPic[i].Add(tmpBmp);
+                    tmpRec = new Rectangle(i * ts.Width, (j + 4) * ts.Height, ts.Width, ts.Height);
+                    tmpBmp = bmpTank1.Clone(tmpRec, format);
+                    tankPic[i + 8].Add(tmpBmp);
+                }
+            }*/
+
+
+
+int tmpX = myTank.X / tis.Width;
+            int tmpY = myTank.Y / tis.Height;
+            Rectangle rectMyTank = myTank.GetRectangle();
+            Rectangle rectTmp;
+            for (int i = tmpX - 1; i < tmpX + 3; i++)
+            {
+                for (int j = tmpY - 1; j < tmpY + 3; j++)
+                {
+                    if (map[i, j] != null)
+                    {
+                        rectTmp = map[i, j].GetRectangle();
+                        if (rectTmp.X + rectTmp.Width > rectMyTank.X && rectTmp.Y + rectTmp.Height > rectMyTank.Y
+                            && rectTmp.X < rectMyTank.X + rectMyTank.Width && rectTmp.Y < rectMyTank.Y + rectMyTank.Height)
+                        {
+                            myTank.X = myTank.XOld;
+                            myTank.Y = myTank.YOld;
+                            tank.Dir = Direction.Stop;
+                            if (rectTmp.X + rectTmp.Width - rectMyTank.X < 7)
+                            {
+                                myTank.X += rectTmp.X + rectTmp.Width - rectMyTank.X;
+                            }
+                            if (rectTmp.Y + rectTmp.Height - rectMyTank.Y < 7)
+                            {
+
+                            }
+                            if (rectMyTank.X + rectMyTank.Width - rectTmp.X < 7)
+                            {
+
+                            }
+                            if (rectMyTank.Y + rectMyTank.Height - rectTmp.X < 7)
+                            {
+
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+
+
+
+            while (true)
+            {
+                FormStart fStart = FormStart.CreateInstance();
+                fStart.ShowDialog();
+                if (fStart.DialogResult == DialogResult.OK)
+                {
+                    Random r = new Random();
+                    int rNum = r.Next(100, 999);
+                    myTank = new Tank("hehe" + rNum.ToString(), r.Next(0, gameWidth), r.Next(0, gameHeight), Direction.Up, GameImages.tankPic[1]);
+                    //连接服务器
+                    nc = new NetClient(this);
+                    if (nc.Connect(fStart.IP, fStart.Port))
+                    {
+                        break;
+                    }
+                }
+                else
+                {
+                    Application.Exit();
+                    break;
+                }
+            }

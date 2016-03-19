@@ -1,0 +1,5 @@
+F:\C#\CrazyTank_2\TankServer\bin\Debug\TankServer.exe
+F:\C#\CrazyTank_2\TankServer\bin\Debug\TankServer.pdb
+F:\C#\CrazyTank_2\TankServer\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\CrazyTank_2\TankServer\obj\Debug\TankServer.exe
+F:\C#\CrazyTank_2\TankServer\obj\Debug\TankServer.pdb
