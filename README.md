@@ -1,6 +1,4 @@
 # CrazyTank 
-A game imitate battle city,support multiplayer on LAN,unfinshed work.
-
 高仿90坦克大战，支持局域网多人联机，未完成品。
 
 ## 使用说明
